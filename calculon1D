@@ -1,0 +1,39 @@
+#!/usr/bin/python3
+
+
+
+
+print('CALCULON! Deep Space Travel Calculator')
+print('2017 Linux Version by Kendal T Chandler')
+
+
+var=1
+while var==1: #infinite loop
+    #x is miles light can travel in one year
+    x=186000*60*60*24*365
+    v=input('Distance to destination, in LIGHT YEARS- ')
+    m=v*x
+    t=input('Speed of Craft in MPH- ')
+    w=t*24*365
+    a=m/w
+
+
+    print('The distance to your destination in MILES is:')
+    print m
+
+    print('The number of YEARS it would take to arrive is:')
+    print a
+    print('')
+    
+   
+    
+   
+
+
+
+
+
+
+	
+ 
+ 
